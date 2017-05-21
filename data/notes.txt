@@ -1,0 +1,14 @@
+element {
+    float: right;
+    border-radius: 60px;
+    width: 45px;
+    margin-left: 10px;
+}
+
+this is for the elfangor image in the chat box. change the float to left instead and the margin to margin right
+
+.wc-message-from-me svg.wc-message-callout path {
+    fill: #ba2a4f;
+}
+
+this is for the speech bubble svg styling

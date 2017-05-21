@@ -1,0 +1,6 @@
+.pioenvs
+.piolibdeps
+platformio.ini
+.piolib
+node_modules
+.env

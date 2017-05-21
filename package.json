@@ -1,0 +1,26 @@
+{
+  "name": "escafil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "commandTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suz Hinton",
+  "license": "MIT",
+  "dependencies": {
+    "azure-event-hubs": "0.0.8",
+    "azure-iot-common": "^1.1.7",
+    "azure-iot-device": "^1.1.12",
+    "azure-iot-device-mqtt": "^1.1.12",
+    "azure-iothub": "^1.1.10",
+    "botbuilder": "3.8.0",
+    "dotenv": "^4.0.0",
+    "html-entities": "1.2.0",
+    "request": "2.78.0",
+    "require-dir": "^0.3.1",
+    "restify": "4.3.0",
+    "serialport": "^4.0.7",
+    "web-audio-api": "^0.2.2"
+  }
+}

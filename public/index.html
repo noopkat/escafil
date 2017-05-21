@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Advanced Intergalactic Communication Interface</title>
+    <link href="/botchat.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="bot"/>
+    <script src="/botchat.js"></script>
+    <script>
+
+      var botConnection = new BotChat.DirectLine({
+          secret: ''
+      });
+
+      BotChat.App({
+        directLine: botConnection,
+        user: { id: 'human' },
+        bot: { id: 'Elfangor' },
+        resize: 'detect'
+      }, document.getElementById("bot"));
+
+      botConnection.activity$.subscribe(logActivity);
+
+      function logActivity(activity) {console.log("received activity ", activity)};
+
+    </script>
+  </body>
+</html>
